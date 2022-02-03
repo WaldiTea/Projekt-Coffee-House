@@ -1,0 +1,250 @@
+/*
+########################################
+                  Global
+########################################
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@700&family=Special+Elite&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+p,
+a {
+  font-family: "Special Elite";
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Exo";
+}
+
+h1,
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+img {
+  width: 100%;
+}
+
+div {
+  height: 50vh;
+}
+
+/*
+########################################
+                  Header
+########################################
+*/
+
+header {
+  background: #fff;
+  position: sticky;
+  top: 0;
+}
+
+ul {
+  height: 6vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 2rem;
+  margin-right: 2rem;
+}
+
+/*
+########################################
+                  Main
+########################################
+*/
+
+.new-line {
+  margin: 1rem 0;
+}
+
+.down-space {
+  margin-bottom: 1rem;
+}
+
+.border {
+  border: 1px solid #000;
+  padding: 0.25rem 0.5rem;
+}
+
+/*---------- title-section ----------*/
+
+.bg-title {
+  height: 94vh;
+  background: url(../img/bg.jpeg) center/cover no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.img-title {
+  width: 55%;
+}
+
+/*---------- hello-section ----------*/
+
+.bg-hello {
+  height: 50vh;
+  background: url(../img/beans_icon.png) center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 7rem;
+}
+
+.text-hello {
+  width: 22%;
+}
+
+.parallax-hello {
+  background: url(../img/bridge_1.jpg) center/cover no-repeat fixed;
+}
+
+/*---------- menu-section ----------*/
+
+.section-menu {
+  height: 85vh;
+  background: url(../img/cake_icon.png) left/cover no-repeat;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.toast-wrapper {
+  margin: 1rem 0;
+}
+
+.toast {
+  width: 5%;
+}
+
+.article-menu {
+  width: 25%;
+  padding: 1rem 2rem;
+  margin: 1rem auto;
+  border: 1px solid #000;
+}
+
+.parallax-menu {
+  background: url(../img/bridge_2.jpg) center/cover no-repeat fixed;
+}
+
+/*---------- story-section ----------*/
+
+.section-story {
+  height: 50vh;
+  width: 37%;
+  margin: 0 auto;
+  display: flex;
+  align-items: end;
+  gap: 5rem;
+}
+
+.article-story {
+  width: 90%;
+  margin-bottom: 3rem;
+}
+
+.paper-wrapper {
+  width: 50%;
+  margin-bottom: 4rem;
+}
+
+.parallax-story {
+  background: url(../img/bridge_3.jpg) center/cover no-repeat fixed;
+}
+
+/*---------- catering-section ----------*/
+
+.section-catering {
+  height: 50vh;
+  background: url(../img/pie_icon.png) right/30% 100% no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.catering-wrapper {
+  width: 20%;
+}
+
+.article-catering {
+  width: 22%;
+}
+
+.parallax-catering {
+  background: url(../img/bridge_4.jpeg) center/cover no-repeat fixed;
+}
+
+/*---------- cake-section ----------*/
+
+.section-cake {
+  height: 50vh;
+  background: url(../img/muffin_icon.png) left/30% 100% no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.cake-wrapper {
+  width: 20%;
+}
+
+.article-cake {
+  width: 21%;
+}
+
+/*
+########################################
+                  Footer
+########################################
+*/
+
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0 2rem 0;
+}
+
+footer figure {
+  width: 2%;
+  margin: 0 auto;
+}
+
+footer figure:last-of-type {
+  width: 5%;
+}
